@@ -12,6 +12,7 @@ public class L1129 {
         int[][] redEdges = {{0,1},{1,2}};
         int[][] blueEdges = {{1,2}};
         int n = 3;
+        System.out.println("测试一下");
         System.out.println(Arrays.toString(shortestAlternatingPaths(n,redEdges,blueEdges)));
     }
 
